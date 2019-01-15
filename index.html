@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html>
+<body style="background-color:#a8bdf4;">
+  <style> h1 {textalign:center;} h2
+  {text-align:center;}
+</style>
+<h1>The U.S. states quiz</h1>
+<h2>Can you name all 50 U.S. states?</h2>
+<!-- calls js for timer and displays it -->
+<script src="timer.js"></script>
+<button type="button" id="startbutton" onclick="starttime()" >set timer (optional)</button>
+<p>score: <span id="scoreText"></span></p>
+<p>time remaining: <span id="timeText"></span></p>
+<span>type answer here:</span>
+<input type="text" id="answer"><button type="button" onclick="check()">Submit</button>
+<script src="clean.js"></script>
+<ul id="answerlist">
+</ul>
+<!-- <p>type answer here:</p>
+<input id="answer"> -->
+</body>
+</html> 
